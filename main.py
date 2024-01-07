@@ -4,7 +4,7 @@ import os
 
 # OAUTH_BASE_URL = 'https://oauth.vk.com/authorize'
 # params = {
-#     'client_id': '51826793',
+#     'client_id': 'id',
 #     'redirect_uri': 'https://oauth.vk.com/blank.html',
 #     'display': 'page',
 #     'scope': 'photos',
@@ -15,7 +15,7 @@ import os
 # oauth_url = f'{OAUTH_BASE_URL}?{urlencode(params)}'
 # print(oauth_url)
 
-token = 'vk1.a.7ePWBuj64ndCTEv8T8vEVe64HvrJ6_pD0S3DpJs4SX56VOme7TyplFEAp9DE1qB2CynGL1j_hHPCdwPxEGEr-RJx3iArdu_GgDZto1hMzGFVMAWFXuxSLuc0Cb2Xgdkm_H0bJ3alQwKfoWqwcj3Q7FOm064Ku2xdeasOnDiqHtSDYJyaSd8mC6FuwxOrJrqi'
+token = ''
 
 
 class PhotosLoad:
@@ -90,7 +90,7 @@ class PhotosLoad:
 
 
 if __name__ == '__main__':
-    vk_client = PhotosLoad(token, 815560160)
+    vk_client = PhotosLoad(token, id)
 #     photos_info = vk_client.get_profile_photos()
 #     print(photos_info)
 #     max_size_photo = vk_client.maxsize_photo()
